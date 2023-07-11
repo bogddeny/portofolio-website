@@ -10,7 +10,7 @@ const Contact = () => {
             <label>Name</label>
           </div>
           <div className='flex flex-col justify-center items-end p-8'>
-            <input type="text" placeholder='John Doe / Jane Doe' className='bg-[#575757] rounded-2xl p-4 w-full md:w-[500px]' />
+            <input type="text" placeholder='John Doe' className='bg-[#575757] rounded-2xl p-4 w-full md:w-[500px]' />
           </div>
         </div>
         
@@ -19,7 +19,7 @@ const Contact = () => {
             <label>Email</label>
           </div>
           <div className='flex flex-col justify-center items-end p-8'>
-            <input type="text" placeholder='example@example.com' className='bg-[#575757] rounded-2xl p-4 w-full md:w-[500px]' />
+            <input type="text" placeholder='john@doe.com' className='bg-[#575757] rounded-2xl p-4 w-full md:w-[500px]' />
           </div>
         </div>
         <div className='flex flex-col justify-center h-3/6'>
@@ -34,7 +34,7 @@ const Contact = () => {
         <button className='bg-[#67cbde] text-[#121212] font-bold m-8 mt-0 p-4 rounded-2xl
         group transition ease-in-out hover:scale-110 hover:text-white flex justify-center items-center'>
           <span className='mr-4'>Submit</span>
-          <span className='group-hover:wiggle duration-300'>
+          <span className='group-hover:rotate-45 duration-300'>
             <FiSend className=''/>
           </span>
         </button>
