@@ -11,7 +11,7 @@ Install the following packages via npm
 
 ## Getting and running the project
 
-'''
+'''sh
 git clone https://github.com/bogddeny/portofolio-website
 cd portofolio-website/
 npm start
