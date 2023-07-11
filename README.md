@@ -1,4 +1,4 @@
-# This is a personal portofolio website project
+# Personal Portofolio Website
 
 This website is made using React / TypeScript / TailwindCSS
 
@@ -11,10 +11,13 @@ Install the following packages via npm
 
 ## Getting and running the project
 
+Run the following commands in the terminal of your choice
+
 ```sh
 git clone https://github.com/bogddeny/portofolio-website
 cd portofolio-website/
 npm start
 ```
 
+Then open this link in your browser ```localhost:3000```
 
