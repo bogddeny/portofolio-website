@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaArrowRight } from 'react-icons/fa'
+import { FaLink } from 'react-icons/fa'
 
 interface ProjectCardProps {
   title: string
@@ -19,9 +19,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({title, description, button, li
       group transition ease-in-out hover:scale-110 hover:text-white
       w-[200px] bg-[#67cbde] text-[#282828] text-base rounded-2xl p-2
       flex justify-center items-center'>
-        <span className='mr-4'>{button}</span>
-          <span className='group-hover:rotate-90 duration-300'>
-            <FaArrowRight className=''/>
+        <span className='mr-2'>{button}</span>
+          <span className='group-hover:animate-bounce duration-300'>
+            <FaLink className=''/>
           </span>
       </a>
     </div>
