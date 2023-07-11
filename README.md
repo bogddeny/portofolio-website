@@ -1,6 +1,6 @@
 # Personal Portofolio Website
 
-This website is made using React / TypeScript / TailwindCSS
+This is a personal project website made using React / TypeScript / TailwindCSS with the purpose of learning the React library and the TypeScript language
 
 ## Requirements
 
