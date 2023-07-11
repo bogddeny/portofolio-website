@@ -32,7 +32,7 @@ const Contact = () => {
         </div>
         <div className='flex flex-col justify-center h-1/6'>
         <button className='bg-[#67cbde] text-[#121212] font-bold m-8 mt-0 p-4 rounded-2xl
-        group transition ease-in-out hover:scale-110 hover:text-white flex justify-center items-center'>
+        group transition ease-in-out hover:scale-105 hover:text-white flex justify-center items-center'>
           <span className='mr-4'>Submit</span>
           <span className='group-hover:rotate-45 duration-300'>
             <FiSend className=''/>
