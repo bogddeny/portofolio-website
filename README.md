@@ -2,6 +2,8 @@
 
 This is a personal project website made using React / TypeScript / TailwindCSS with the purpose of learning the React library and the TypeScript language
 
+![Image Description](preview.png)
+
 ## Requirements
 
 Install the following packages via npm
