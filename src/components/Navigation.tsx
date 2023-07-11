@@ -69,7 +69,7 @@ const Navigation = () => {
         </ul>
       </div>
       {/* Back To Top Icon */}
-      <div onClick={scrollToTop} className='transition ease-in-out hover:scale-110 bg-[#3f3f3f] text-[#ffffff] w-[50px] h-[50px] fixed flex-col bottom-0 right-0 flex justify-center items-center rounded-2xl m-4'>
+      <div onClick={scrollToTop} className={!showTopButton ? 'hidden' : 'transition ease-in-out hover:scale-110 bg-[#3f3f3f] text-[#ffffff] w-[50px] h-[50px] fixed flex-col bottom-0 right-0 flex justify-center items-center rounded-2xl m-4'}>
         <div className='p-2 hover:animate-pulse'>
           <FaArrowUp size={30} />
         </div>
